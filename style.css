@@ -1,0 +1,301 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Стилі для хедера */
+.header-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px;
+    gap: 20px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.header-nav a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Стилі для клієнтської сторінки */
+.client-dashboard {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.dashboard-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.dashboard-welcome {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.client-nav {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.client-nav a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.client-nav a:hover {
+    background-color: #45a049;
+}
+
+.btn-logout {
+    background-color: #f44336;
+}
+
+.btn-logout:hover {
+    background-color: #e53935;
+}
+
+.client-content {
+    font-size: 18px;
+    color: #444;
+}
+/* Стилі для футера */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Стилі для сторінки логіну */
+.login-section {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+.welcome-section {
+    background: #f8f5f2;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container {
+    max-width: 700px;
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.welcome-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3e2f1c;
+}
+
+.brand-name {
+    color: #c57c48;
+    font-weight: bold;
+}
+
+.welcome-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.welcome-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #c57c48;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #a96437;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #c57c48;
+    border: 2px solid #c57c48;
+}
+
+.btn-secondary:hover {
+    background-color: #c57c48;
+    color: white;
+}
+.admin-header {
+    background-color: #3e2f1c;
+    padding: 20px 0;
+    color: white;
+}
+
+.admin-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.admin-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.admin-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #c57c48;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.admin-nav a:hover {
+    background-color: #a96536;
+}
+
+.admin-main {
+    padding: 50px 20px;
+    background-color: #f8f5f2;
+    min-height: 70vh;
+    text-align: center;
+}
+
+.username {
+    color: #c57c48;
+    font-weight: bold;
+}
